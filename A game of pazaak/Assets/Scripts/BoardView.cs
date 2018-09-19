@@ -26,7 +26,7 @@ public class BoardView : MonoBehaviour {
     {
         if (Instance != null && Instance != this)
         {
-            Debug.Log("Multiple instances of DealerDeck");
+            Debug.Log("Multiple instances of Boardview!");
             Destroy(this);
             return;
         }

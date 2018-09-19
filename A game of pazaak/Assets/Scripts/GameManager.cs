@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
     {
         if (Instance != null && Instance != this)
         {
-            Debug.Log("Multiple instances of DealerDeck");
+            Debug.Log("Multiple instances of GameManager");
             Destroy(this);
             return;
         }
